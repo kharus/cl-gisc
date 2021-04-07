@@ -30,3 +30,6 @@
 
 (defun more-than-half-p (x y)
   (> x (half y)))
+
+(defun mysteryfn (x)
+  (symbolp (numberp x)))
